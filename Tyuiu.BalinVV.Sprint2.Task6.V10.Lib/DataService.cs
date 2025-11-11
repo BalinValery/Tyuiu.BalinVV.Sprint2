@@ -42,7 +42,7 @@ namespace Tyuiu.BalinVV.Sprint2.Task6.V10.Lib
                     n--;
                     break;
             }
-            res = ($"{n}.{m}.{g}");
+            res = ($"{n:00}.{m:00}.{g}");
             return res;
         }
     }
